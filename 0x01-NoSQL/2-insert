@@ -1,0 +1,5 @@
+// inserts a document in the collection school
+// -The document must have one attribute with the name "Holberton School"
+// -The database will be passed as option of mongo command
+
+db.school.insert({"name": "Holberton school"});
